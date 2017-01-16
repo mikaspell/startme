@@ -1,0 +1,39 @@
+{
+  "name": "startme",
+  "version": "1.0.0",
+  "description": "simple starter kit for frontend",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikaspell/startme.git"
+  },
+  "keywords": [
+    "frontend",
+    "kit",
+    "gulp",
+    "scss",
+    "pug"
+  ],
+  "author": "mikaspell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikaspell/startme/issues"
+  },
+  "homepage": "https://github.com/mikaspell/startme#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-watch": "^4.3.11",
+    "gulp-webserver": "^0.9.1",
+    "imagemin-pngquant": "^5.0.0",
+    "main-bower-files": "^2.13.1",
+    "rimraf": "^2.5.4"
+  }
+}
