@@ -1,6 +1,6 @@
 #Simple starter kit "StartMe"
 
-####Установка
+###Установка
 
 У вас в системе должны быть установлены gulp и bower:
 - `npm i gulp-cli gulp bower -g`
@@ -11,7 +11,7 @@
 Склонируйте репозиторий:
 - `git clone https://github.com/makaspell/startme.git projectName`
 
-####Запуск
+###Запуск
 
 Перейдите в папку проекта:
 - `cd projectName`
