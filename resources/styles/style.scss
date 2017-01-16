@@ -1,0 +1,25 @@
+@import "partials/system/fonts";
+
+// Демо стили
+
+body {
+  font-family: 'UbuntuRegular', sans-serif;
+}
+.wrapper {
+  width: 500px;
+  margin: 150px auto 0;
+  text-align: center;
+}
+h1 {
+  font-size: 32px;
+}
+a {
+  color: red;
+  img, span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &:hover span, &:focus span {
+    text-decoration: underline;
+  }
+}
