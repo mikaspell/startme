@@ -4,7 +4,9 @@
   "description": "simple starter kit for frontend",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "bower i",
+    "server": "gulp",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
   },
   "homepage": "https://github.com/mikaspell/startme#readme",
   "dependencies": {
+    "bower": "^1.8.8",
     "gulp": "^3.9.1",
     "gulp-imagemin": "^3.1.1",
     "gulp-plumber": "^1.1.0",
