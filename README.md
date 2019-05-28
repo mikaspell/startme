@@ -2,9 +2,6 @@
 
 ### Установка
 
-У вас в системе должны быть установлены gulp и bower:
-- `npm i gulp-cli gulp bower -g`
-
 Создайте папку для проекта: 
 - `mkdir projectName`
 
@@ -17,10 +14,13 @@
 - `cd projectName`
 
 Установите зависимости:
-- `npm i && bower i`
+- `npm i`
+
+Скомпилируйте проект:
+- `npm run build`
 
 Запустите проект:
-- `gulp`
+- `npm run server`
 
 ---
 
