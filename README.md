@@ -1,4 +1,5 @@
 # Simple starter kit "StartMe" for layouts
+Includes gulp, pug and scss.
 
 ### Installation
 
