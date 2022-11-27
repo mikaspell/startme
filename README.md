@@ -26,3 +26,4 @@ Run project:
 - `gulp css` - css compilation
 - `gulp js` - js compilation
 - `gulp copy` - copying static or external assets
+- `gulp build` - build project
