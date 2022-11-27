@@ -1,18 +1,34 @@
 @import "partials/system/fonts";
 
-// Демо стили
-
 body {
+  font-size: 10px;
   font-family: 'UbuntuRegular', sans-serif;
+  background-image: url('/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .wrapper {
   width: 500px;
   margin: 150px auto 0;
   text-align: center;
 }
+
 h1 {
-  font-size: 32px;
+  font-size: 5rem;
+  color: #fff;
+  text-transform: lowercase;
+  text-shadow: 0 1px 5px #c3c3c3;
+  margin-bottom: 0;
 }
+
+h1 + p {
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 0 1px 5px #8c8a8a;
+  margin-bottom: 2.5rem;
+}
+
 a {
   color: red;
   img, span {

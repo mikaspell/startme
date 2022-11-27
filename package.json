@@ -1,11 +1,10 @@
 {
   "name": "startme",
-  "version": "1.0.0",
-  "description": "simple starter kit for frontend",
+  "version": "2.0.0",
+  "description": "simple starter kit for layouts",
   "main": "gulpfile.js",
   "scripts": {
-    "postinstall": "bower i",
-    "server": "gulp",
+    "serve": "gulp",
     "build": "gulp build"
   },
   "repository": {
@@ -26,17 +25,14 @@
   },
   "homepage": "https://github.com/mikaspell/startme#readme",
   "dependencies": {
-    "bower": "^1.8.8",
-    "gulp": "^3.9.1",
-    "gulp-imagemin": "^3.1.1",
-    "gulp-plumber": "^1.1.0",
-    "gulp-pug": "^3.2.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sequence": "^0.4.6",
-    "gulp-watch": "^4.3.11",
-    "gulp-webserver": "^0.9.1",
-    "imagemin-pngquant": "^5.0.0",
-    "main-bower-files": "^2.13.1",
-    "rimraf": "^2.5.4"
+    "bootstrap": "^5.2.1",
+    "browser-sync": "^2.27.10",
+    "gulp-copy": "^4.0.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "rimraf": "^3.0.2",
+    "sass": "^1.55.0",
+    "gulp": "^4.0.2"
   }
 }
