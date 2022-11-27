@@ -1,32 +1,27 @@
-# Simple starter kit "StartMe"
+# Simple starter kit "StartMe" for layouts
 
-### Установка
+### Installation
 
-Создайте папку для проекта: 
-- `mkdir projectName`
-
-Склонируйте репозиторий:
+Clone the repository:
 - `git clone https://github.com/makaspell/startme.git projectName`
 
-### Запуск
+### Initialization
 
-Перейдите в папку проекта:
+Go to created directory:
 - `cd projectName`
 
-Установите зависимости:
+Install dependencies:
 - `npm i`
 
-Скомпилируйте проект:
-- `npm run build`
-
-Запустите проект:
+Run project:
 - `npm run server`
 
 ---
 
 ##### Gulp tasks
-- `gulp` - запуск веб-сервера со слежением за изменением файлов
-- `gulp clean` - удаление папки `build` вместе с содержимым
-- `gulp html` - компиляция html
-- `gulp css` - компиляция css
-- `gulp js` - компиляция js
+- `gulp` - launch server with watching for resource files
+- `gulp clean` - removing `build` directory
+- `gulp html` - html compilation
+- `gulp css` - css compilation
+- `gulp js` - js compilation
+- `gulp copy` - copying static or external assets
