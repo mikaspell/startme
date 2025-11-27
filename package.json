@@ -1,6 +1,6 @@
 {
   "name": "startme",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "simple starter kit for layouts",
   "main": "gulpfile.js",
   "scripts": {
