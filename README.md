@@ -12,10 +12,10 @@ Go to created directory:
 - `cd projectName`
 
 Install dependencies:
-- `npm i`
+- `npm ci`
 
 Run project:
-- `npm run server`
+- `npm run serve`
 
 ---
 
